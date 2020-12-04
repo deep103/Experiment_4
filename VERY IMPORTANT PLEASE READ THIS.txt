@@ -1,0 +1,25 @@
+VERY IMPORTANT!!!!!!!!!!!!!!!!!!!
+
+Create a database having name 'php_crud' (if you want to keep a different name, just make the changes in the 'config.php' file and change the existing database name i.e. (php_crud) to your desired name
+
+Now
+
+paste the code below in the sql section of you database
+
+_________________________________________________________
+
+CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    age INT(10) NOT NULL
+);
+
+_________________________________________________________
+
+Now the database and table is created!!!!!!!!!!
+
+DONE BY:
+DEEP SINGH BHAMRA
+ROLL NO> 5
+BRANCH> T.E. COMPS / A
